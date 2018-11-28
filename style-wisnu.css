@@ -51,11 +51,21 @@
 	.whatwedo.landing_one_version .about_single_part_area .about_text p {
 		font-size: 12px;
 	}
-	.whatwedo.landing_one_version .about_single_part_area.even .about_text ul {
+	.pricing_model.landing_one_version .about_single_part_area .about_text ul,
+	.pricing_model.landing_one_version .about_single_part_area .about_text ol,
+	.pricing_model.landing_one_version .about_single_part_area .about_text p {
+		font-size: 15px !important;
+	}
+	.whatwedo.landing_one_version .about_single_part_area.even .about_text ul,
+	.pricing_model.landing_one_version .about_single_part_area.even .about_text ul {
 		font-size: 11px;
 	}
 	.whatwedo.landing_one_version .about_single_part_area .about_us_content h3 {
 		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	.pricing_model.landing_one_version .about_single_part_area .about_us_content h3 {
+		font-size: 20px;
 		margin-bottom: 5px;
 	}
 }
@@ -104,19 +114,27 @@
 		padding: 0 20px;
 	}
 	.whatwedo.landing_one_version .about_single_part_area .about_us_content,
-	.whatwedo.landing_one_version .about_single_part_area .about_thumb {
+	.whatwedo.landing_one_version .about_single_part_area .about_thumb,
+	.pricing_model.landing_one_version .about_single_part_area .about_us_content,
+	.pricing_model.landing_one_version .about_single_part_area .about_thumb {
 		float: none;
 		width: 100%;
 		height: auto !important;
 	}
-	.whatwedo.landing_one_version .about_single_part_area .about_us_content .table {
+	.whatwedo.landing_one_version .about_single_part_area .about_us_content .table,
+	.pricing_model.landing_one_version .about_single_part_area .about_us_content .table {
 		display: block;
 		position: static;
 	}
-	.whatwedo.landing_one_version .about_single_part_area .about_text {
+	.whatwedo.landing_one_version .about_single_part_area .about_text,
+	.pricing_model.landing_one_version .about_single_part_area .about_text {
 		padding: 30px 20px;
 	}
-	.whatwedo.landing_one_version .about_single_part_area.even {
+	.pricing_model.landing_one_version .about_single_part_area .about_text p {
+    	font-size: 16px !important;
+	}
+	.whatwedo.landing_one_version .about_single_part_area.even,
+	.pricing_model.landing_one_version .about_single_part_area.even {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -moz-box;
@@ -138,6 +156,14 @@
 	}
 	.foo_bottom_header_one {
 		padding: 0 0 30px;
+	}
+	/* Pricing */
+	.pricing_model {
+		padding: 40px 0 0;
+	}
+	.pricing_model .section-title h3.large {
+		font-size: 30px;
+		margin: 0;
 	}
 }
 @media (max-width: 575.98px) {
