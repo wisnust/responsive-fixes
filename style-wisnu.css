@@ -39,6 +39,10 @@
 	.contactus .col-lg-7 .subscribe_bar button {
 		font-size: 15px !important;
 	}
+	/* New Influencer shout */
+	.shout h2 {
+		font-size: 2.5em;
+	}
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
 	/* Header */
@@ -100,6 +104,13 @@
 	}
 	.contactus .col-lg-7 .subscribe_bar button {
 		font-size: 18px !important;
+	}
+	.carousel-content {
+		max-width: 100%;
+		left: 5%;
+	}
+	.carousel-item {
+		height: 500px;
 	}
 }
 @media (max-width: 767.98px) {
@@ -216,6 +227,85 @@
 		font-size: 10px !important;
 		padding: 10px 6px !important;
 		height: auto;
+	}
+	/* New Influencer page */
+	.carousel-content {
+		padding: 20px;
+	}
+	.carousel-item {
+	    height: 400px;
+	}
+	.shout h2 {
+	    font-size: 21px;
+	}
+	.shout p {
+	    font-size: 15px;
+	}
+	.shout .btn {
+	    font-size: 15px;
+	}
+	#s2.shout {
+		padding: 40px 0 0;
+	}
+	#s2.shout > .container {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 20px;
+	}
+	#s2.shout > .container > .row {
+		margin: 0;
+	}
+	#s2.shout .about_us_area > .row:first-of-type {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-webkit-flex-direction: column-reverse;
+		-moz-box-orient: vertical;
+		-moz-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	#s2.shout .about_us_area > .row {
+		margin-right: -.9375rem;
+		margin-left: -.9375rem;
+	}
+	#s2.shout .section_padding_50 {
+		padding-top: 0;
+	}
+	#s2.shout .about_us_text {
+		margin-top: 30px;
+	}
+	#s2.shout .about_us_text br {
+		display: none;
+	}
+	.section_padding_100_50.shout {
+		padding: 60px 0 20px;
+	}
+	.service_area.section_padding_100_50 {
+		padding: 40px 0;
+	}
+	.service_area.section_padding_100_50 .row,
+	.shout.cta_area .row {
+		margin: 0;
+	}
+	.service-box {
+		margin: 15px 0;
+	}
+	.service-box h3 {
+		font-size: 20px;
+		margin: 15px 0 30px;
+	}
+	.service-box p {
+		font-size: 14px;
+	}
+	.shout .container {
+		max-width: 100%;
+		width: 100%;
+		padding: 0 20px;
 	}
 }
 @media (max-width: 575.98px) {
