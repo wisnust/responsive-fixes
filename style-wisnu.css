@@ -332,10 +332,12 @@
 	}
 	/* HOME PAGE */
 	.welcome_area.height_800 {
-		height: 450px !important;
+		height: 470px !important;
+		padding-top: 75px;
 	}
 	.welcome_area.height_800 .bg-img-responsive {
 		background-attachment: inherit;
+		background-position: 50% -23px;
 	}
 	.welcome_area.height_800 .container {
 		width: 100%;
@@ -386,5 +388,8 @@
 @media (max-width: 328.98px) {
 	.contactus .col-lg-7 .subscribe_bar button {
 		font-size: 8.5px !important
+	}
+	.welcome_area.height_800 {
+		padding-top: 50px;
 	}
 }

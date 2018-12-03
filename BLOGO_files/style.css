@@ -9784,7 +9784,8 @@ section#form .form-group label.inline-control {
 
 
 
-//// FIX/* Header */
+//// FIX
+/* Header */
 .nav-header {
   position: relative;
   left: -15px;
@@ -10118,10 +10119,12 @@ section#form .form-group label.inline-control {
   }
   /* HOME PAGE */
   .welcome_area.height_800 {
-    height: 450px !important;
+    height: 470px !important;
+    padding-top: 75px;
   }
   .welcome_area.height_800 .bg-img-responsive {
     background-attachment: inherit;
+    background-position: 50% -23px;
   }
   .welcome_area.height_800 .container {
     width: 100%;
