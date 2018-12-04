@@ -9794,6 +9794,15 @@ section#form .form-group label.inline-control {
 .breadcumb_area .container .row .col-12 {
   padding: 0 15px;
 }
+/* Loader */
+.classy-load {
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: -20px;
+}
 @media (max-width: 1199.98px) {
   /* Header */
   .nav-menu {
@@ -9898,6 +9907,18 @@ section#form .form-group label.inline-control {
   }
   .carousel-item {
     height: 500px;
+  }
+  /* Software */
+  .single_portfolio_details_area .jarallax-img {
+    width: 100%;
+  }
+  .single_portfolio_details_area .single_gallery_item_info {
+    padding-left: 0;
+  }
+  /* Influencer */
+  .minimal_features_area.section_padding_100_70.bg-gray .col-12.col-lg-4 {
+    width: 33.333333%;
+    float: left;
   }
 }
 @media (max-width: 767.98px) {
@@ -10043,6 +10064,7 @@ section#form .form-group label.inline-control {
     padding: 20px;
   }
   .carousel-item {
+    background-attachment: inherit;
       height: 400px;
   }
   .shout h2 {
@@ -10169,11 +10191,51 @@ section#form .form-group label.inline-control {
   .cta_area.minimal_version.section_padding_50.bg-dark {
     padding: 50px 20px;
   }
+  /* Software */
+  .single_portfolio_details_area.section_padding_100 {
+    padding: 40px 0;
+  }
+  .single_portfolio_details_area .container,
+  .about_area.section_padding_50 .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .about_area.section_padding_50 .container .col,
+  .cta_area.minimal_version .container .col {
+    padding: 0 15px;
+  }
+  .cooming_soon_content .minimal_cta_btn {
+    margin-left: 0;
+  }
+  #formInput.container {
+    padding: 0;
+  }
+  #formInput.container .row {
+    margin: 0 -5px;
+  }
+  #formInput.container #terms label {
+    display: inline;
+  }
+  section#form .form-group input.inline-control {
+    width: 95px;
+  }
+
 }
 @media (max-width: 575.98px) {
+  /* Influencer */
+  .minimal_features_area.section_padding_100_70.bg-gray .col-12.col-lg-4 {
+    width: 100%;
+    float: none;
+  }
+  .minimal_features_area.section_padding_100_70.bg-gray .col-12.col-lg-4 .single_feature_area h3 br {
+    display: none;
+  }
 }
 @media (max-width: 328.98px) {
   .contactus .col-lg-7 .subscribe_bar button {
     font-size: 8.5px !important
+  }
+  .welcome_area.height_800 {
+    padding-top: 50px;
   }
 }
